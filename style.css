@@ -1,0 +1,81 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background: url('https://res.cloudinary.com/drf5zyysx/image/upload/v1708609708/samples/cup-on-a-table.jpg');
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+}
+.header-line{
+    color:black;
+    text-align:center;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px;
+    padding: 0px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 2rem;
+}
+
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.copyright{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.intro-para{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.footer-head{
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+}

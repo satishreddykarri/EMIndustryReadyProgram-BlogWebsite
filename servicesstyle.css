@@ -1,0 +1,112 @@
+body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(123, 179, 128);
+}
+.header-line{
+    color:black;
+    text-align:center;
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 2rem;
+}
+
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navbar-toggle .bar {
+    height: 3px;
+    width: 25px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.imagetag{
+    
+    height: 300px;
+    width: 300px;
+    border: solid;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-color: white;
+
+}
+.imagetag1{
+    
+    height: 300px;
+    width: 600px;
+    border: solid;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: blue;
+}
+.imagetag2{
+    
+    height: 300px;
+    width: 300px;
+    border: solid;
+    margin-top: 25px;
+    margin-left: 50px;
+
+}
+.copyright{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    margin-top: 20px;
+    padding-bottom: 5px;
+}
+.callbutton{
+    margin:30px;
+    margin-bottom: 300px;
+    text-decoration: none;
+}
+.header-line2{
+    color:black;
+    text-align:center;
+    background-color: white;
+    margin-top: 15px;
+    width: 100;
+    padding: 0px;
+}
